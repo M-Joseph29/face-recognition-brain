@@ -78,7 +78,7 @@ class App extends Component {
 
   onButtonSubmit = () => {
     this.setState({imageUrl: this.state.input});
-    fetch('https://smart-brain-1emm.onrender.com', {
+    fetch('https://smartback.onrender.com', {
             method: 'post',
             headers: {'Content-Type': 'application/json'},
             body: JSON.stringify({
